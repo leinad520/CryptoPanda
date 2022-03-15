@@ -20,25 +20,25 @@ Once the project moves into development, the press release can be used as a touc
   Cryptocurrency price tracker
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  For those looking for a fast, reliable, price tracker for the big simple cryptocurrencies
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  Sometimes, people just want a simple cryptocurrency price tracker with the major coins. This is what that is.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  The good stuff is simple. Simple crypto price tracker, for simple people. 
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  Check once, be done with your day. No mental struggle fumbling around for various charts, numbers, or coins.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  "I love crypto and I am in the weeds, but realized most people just need a simple crypto price tracker that summarizes the major coins and major trends. This is what that is." - Dan Sangyoon Kim
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  Just load the website.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-
+  "So simple, so elegant." - Bill Lou, solidity engineer at Bitgo
+  
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  Let this be your entry into crypto.
