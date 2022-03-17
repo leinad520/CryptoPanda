@@ -53,15 +53,26 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
         <div className="comment-component">
+          <h4>Comments</h4>
           <div className="comment-box">
-            <h4>Comments</h4>
             {this.state.comments.map((comment, i) =>
-              <div className="comment" key={`${i}-${comment}`}>
+              <>
+                {/* <div className="comment" key={`${i}-${comment}`}>
                 <p>{comment.nickname}</p>
                 <p>{comment.comment}</p>
-              </div>
+              </div> */}
+                <div className="dialogbox">
+                  <div className="body">
+                    <span className="tip tip-left"></span>
+                    <div className="message">
+                      <span id="nickname">{comment.nickname}</span>
+                      <br></br>
+                      <span id="comment">- {comment.comment}</span>
+                    </div>
+                  </div>
+                </div>
+              </>
             )}
           </div>
 
@@ -73,7 +84,6 @@ class App extends React.Component {
             <button className="btn btn-primary pull-right" onClick={this.postComments}>Send</button>
           </form>
         </div>
-      </>
     )
   }
 }
