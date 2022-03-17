@@ -18,14 +18,12 @@ module.exports = {
         },
       },
       {
-        test: /\.(jpg|png|svg)$/,
-        use: {
-            loader: 'url-loader',
-            options: {
-                limit: 25000
-            }
+        test: /\.(jpg|png|svg)$/i,
+        loader: 'url-loader',
+        options: {
+          outputPath: 'images',
         }
-    },
+      },
     {
       test: /\.(png|jpe?g|gif)$/i,
       use: [
@@ -33,7 +31,7 @@ module.exports = {
           loader: 'file-loader',
         },
       ],
-    },
+    }
     ],
   },
 };

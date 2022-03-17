@@ -1,8 +1,10 @@
 import React from 'react';
 import axios from 'axios';
 import CommentBox from './CommentBox.jsx';
-import pandaImg from '../../../images/CryptoPanda.png';
+// import pandaImg from '../../../assets/pandaEight.png';
 import Carousel, { consts } from 'react-elastic-carousel';
+import Animal from "react-animals";
+
 
 class App extends React.Component {
   constructor() {
@@ -54,12 +56,15 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <h1 className="title">CryptoPanda</h1>
-        <img src={pandaImg}></img>
+        <div className="heading-container">
+          <h1 className="title">CryptoPanda</h1>
+          <Animal name="panda" color="yellow" size="60px" dance />
+        </div>
+        {/* <img src={pandaImg} className="panda-img" alt="panda"/> */}
         <div className="final-container">
           <div className="trending-title">
             <h3>Daily Trending</h3>
-            </div>
+          </div>
           <div className="trending-box">
             {this.state.trending.length &&
               <Carousel itemsToShow={4} renderArrow={this.myArrow}>
