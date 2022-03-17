@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Crypto price tracker",
   "main": "index.js",
-  "homepage": "http://leinad520.github.io/CryptoPanda",
+  "homepage": "https://github.com/leinad520/hr-lax49-mvp#readme",
   "scripts": {
     "react-dev": "webpack --mode development --watch",
     "start": "nodemon server/index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ./client/dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "image-webpack-loader": "^8.1.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.2.0"
@@ -44,6 +44,5 @@
   },
   "bugs": {
     "url": "https://github.com/leinad520/hr-lax49-mvp/issues"
-  },
-  "homepage": "https://github.com/leinad520/hr-lax49-mvp#readme"
+  }
 }
