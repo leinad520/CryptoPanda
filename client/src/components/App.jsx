@@ -80,6 +80,7 @@ class App extends React.Component {
               </Carousel>
             }
           </div>
+            <p style={{fontStyle: 'italic',  width: '800px'}}>Updates every 60 seconds</p>
           <div className="table-container">
 
             <table className="price-table">
